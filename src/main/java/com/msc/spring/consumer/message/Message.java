@@ -1,27 +1,81 @@
-package com.msc.spring.consumer.message;/***************************************************************
- * Copyright (c) 2020 Errigal Inc.
- *
- * This software is the confidential and proprietary information
- * of Errigal, Inc.  You shall not disclose such confidential
- * information and shall use it only in accordance with the
- * license agreement you entered into with Errigal.
- *
- *************************************************************** */
+package com.msc.spring.consumer.message;
 
-import java.io.Serializable;
+import javax.persistence.*;
+import java.sql.Date;
 
-/**
- * Created by annadowling on 2020-01-16.
- */
+@Entity
+@Table(name = "message")
+public class Message {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
 
-public class Message implements Serializable {
+    private String requestType;
+    private String correlationId;
+    private Date receiveTime;
+    private int messageVolume;
+    private int messageSize;
 
-    private String notificationType;
-    private String message;
+    public Message() {
+    }
 
+    public int getMessageVolume() {
+        return messageVolume;
+    }
 
-    public Message(String notificationType, String message) {
-        this.notificationType = notificationType;
-        this.message = message;
+    public void setMessageVolume(int messageVolume) {
+        this.messageVolume = messageVolume;
+    }
+
+    public int getMessageSize() {
+        return messageSize;
+    }
+
+    public void setMessageSize(int messageSize) {
+        this.messageSize = messageSize;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getRequestType() {
+        return requestType;
+    }
+
+    public void setRequestType(String requestType) {
+        this.requestType = requestType;
+    }
+
+    public String getCorrelationId() {
+        return correlationId;
+    }
+
+    public void setCorrelationId(String correlationId) {
+        this.correlationId = correlationId;
+    }
+
+    public Date getReceiveTime() {
+        return receiveTime;
+    }
+
+    public void setReceiveTime(Date receiveTime) {
+        this.receiveTime = receiveTime;
+    }
+
+    @Override
+    public String toString() {
+        return "Message{" +
+                "id=" + id +
+                ", requestType='" + requestType + '\'' +
+                ", correlationId='" + correlationId + '\'' +
+                ", receiveTime=" + receiveTime +
+                ", messageVolume=" + messageVolume +
+                ", messageSize=" + messageSize +
+                '}';
     }
 }
