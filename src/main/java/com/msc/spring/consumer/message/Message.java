@@ -1,7 +1,7 @@
 package com.msc.spring.consumer.message;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.util.Date;
 
 @Entity
 @Table(name = "message")
@@ -59,11 +59,11 @@ public class Message {
         this.correlationId = correlationId;
     }
 
-    public Date getReceiveTime() {
+    public java.util.Date getReceiveTime() {
         return receiveTime;
     }
 
-    public void setReceiveTime(Date receiveTime) {
+    public void setReceiveTime(java.util.Date receiveTime) {
         this.receiveTime = receiveTime;
     }
 
