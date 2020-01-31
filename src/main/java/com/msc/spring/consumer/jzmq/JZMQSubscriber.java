@@ -1,5 +1,7 @@
 package com.msc.spring.consumer.jzmq;
 
+import com.msc.spring.consumer.message.MessageUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
@@ -22,6 +24,9 @@ public class JZMQSubscriber {
 
     final String errorMessage = "Exception encountered = ";
 
+    @Autowired
+    MessageUtils messageUtils;
+
     @Bean
     public void consumeJZMQMessage() {
         if (jzmqEnabled) {
@@ -36,9 +41,11 @@ public class JZMQSubscriber {
                 System.out.println("Starting Subscriber..");
                 int i = 0;
                 while (true) {
-                    String address = subscriber.recvStr();
-                    String contents = subscriber.recvStr();
-                    System.out.println(address + ":" + new String(contents) + ": " + (i));
+                    String message = subscriber.recvStr();
+                    byte[] messageBody = subscriber.recv();
+
+                    messageUtils.saveMessage(messageBody);
+                    System.out.println(" [x] Received Message: '" + message + "'");
                     i++;
                 }
             } catch (Exception e) {
