@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
+import org.zeromq.ZContext;
 import org.zeromq.ZMQ;
 
 /**
@@ -23,47 +24,60 @@ public class JZMQSubscriber {
     @Value("${jzmq.enabled}")
     private boolean jzmqEnabled;
 
-    @Value("${multi.thread.enabled}")
-    private boolean multiThreaded;
-
     final String errorMessage = "Exception encountered = ";
 
     @Autowired
     MessageUtils messageUtils;
 
     @Bean
-    public void consumeJZMQMessage() {
+    @ConditionalOnProperty(prefix = "multi.thread", name = "enabled", havingValue = "false")
+    public void consumeJeroMQMessage() {
         if (jzmqEnabled) {
             // Prepare our context and subscriber
-            try {
-                ZMQ.Context context = ZMQ.context(1);
-                ZMQ.Socket subscriber = context.socket(ZMQ.SUB);
-
+            try (ZContext context = new ZContext()) {
+                ZMQ.Socket subscriber = context.createSocket(ZMQ.SUB);
                 subscriber.connect(bindAddress);
                 subscriber.subscribe("B".getBytes());
 
                 System.out.println("Starting Subscriber..");
                 int i = 0;
                 while (true) {
-                    if(multiThreaded){
-                        receiveMessageMultiThread(subscriber);
-                    }else{
-                        byte[] messageBody = subscriber.recv();
-                        messageUtils.saveMessage(messageBody, false);
-                        System.out.println(" [x] Received Message: '" + messageBody + "'");
-                    }
+                    // Read envelope with address
+                    String messageAddress = subscriber.recvStr();
+                    // Read message contents
+                    byte[] messageBody = subscriber.recv();
+                    messageUtils.saveMessage(messageBody, false);
+                    System.out.println(" [x] Received Message: '" + messageBody + "'" + "for address: " + messageAddress);
                     i++;
                 }
-            } catch (Exception e) {
-                System.out.println(errorMessage + e.getLocalizedMessage());
             }
         }
     }
 
+    @Bean
     @Async
-    void receiveMessageMultiThread(ZMQ.Socket subscriber){
-        byte[] messageBody = subscriber.recv();
-        messageUtils.saveMessage(messageBody, true);
-        System.out.println(" [x] Received Message: '" + messageBody + "'");
+    @ConditionalOnProperty(prefix = "multi.thread", name = "enabled", havingValue = "true")
+    public void consumeJeroMQMessageMultiThread() {
+        if (jzmqEnabled) {
+            // Prepare our context and subscriber
+            try (ZContext context = new ZContext()) {
+                ZMQ.Socket subscriber = context.createSocket(ZMQ.SUB);
+                subscriber.connect(bindAddress);
+                subscriber.subscribe("B".getBytes());
+
+                System.out.println("Starting Subscriber..");
+                int i = 0;
+                while (true) {
+                    // Read envelope with address
+                    String messageAddress = subscriber.recvStr();
+                    // Read message contents
+                    byte[] messageBody = subscriber.recv();
+                    messageUtils.saveMessage(messageBody, true);
+                    System.out.println(" [x] Received Message: '" + messageBody + "'" + "for address: " + messageAddress);
+                    i++;
+                }
+            }
+        }
     }
+
 }

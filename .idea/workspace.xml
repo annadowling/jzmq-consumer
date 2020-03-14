@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c449b331-43c2-490c-93d8-1e8a4a0545c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/jzmq-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/jzmq-consumer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/msc/spring/consumer/jzmq/JZMQSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/msc/spring/consumer/jzmq/JZMQSubscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/msc/spring/consumer/message/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/msc/spring/consumer/message/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/jzmq-consumer-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/jzmq-consumer-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/jzmq/JZMQSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/jzmq/JZMQSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/message/MessageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/message/MessageUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +46,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jzmq-consumer" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jzmq-consumer" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -55,7 +78,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -66,7 +89,14 @@
       <recent name="com.msc.spring.consumer.message" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.jzmq-consumer [jar]">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication (1)">
     <configuration name="jzmq-consumer [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -239,12 +269,35 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ConsumerApplication (1)" />
-        <item itemvalue="Spring Boot.ConsumerApplication" />
-        <item itemvalue="Gradle.jzmq-consumer [buildDependents]" />
-        <item itemvalue="Gradle.jzmq-consumer [jar]" />
         <item itemvalue="Gradle.jzmq-consumer [build]" />
+        <item itemvalue="Gradle.jzmq-consumer [buildDependents]" />
+        <item itemvalue="Gradle.jzmq-consumer [clean]" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.192045" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -270,108 +323,128 @@
       <workItem from="1583415620798" duration="58000" />
       <workItem from="1583758797660" duration="29000" />
       <workItem from="1584106626361" duration="115000" />
+      <workItem from="1584186229874" duration="2209000" />
+      <workItem from="1584189056051" duration="2773000" />
+      <workItem from="1584203296979" duration="275000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="468" y="23" key="#ConsumerApplication_(1)" timestamp="1579962630365">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="468" y="23" key="#ConsumerApplication_(1)/0.23.1680.949@0.23.1680.949" timestamp="1579962630365" />
-    <state x="308" y="148" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579962738075">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state x="469" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584189787824">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="308" y="148" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.949@0.23.1680.949" timestamp="1579962738075" />
-    <state x="657" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1580250371094">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state x="469" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584189787824" />
+    <state x="1001" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1584186284977">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="657" y="177" key="#com.intellij.ide.util.MemberChooser/0.23.1680.949@0.23.1680.949" timestamp="1580250371094" />
+    <state x="1001" y="240" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584186284977" />
     <state x="607" y="197" key="#xdebugger.evaluate" timestamp="1580504830910">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="607" y="197" key="#xdebugger.evaluate/0.23.1680.947@0.23.1680.947" timestamp="1580504830910" />
-    <state width="1630" height="323" key="GridCell.Tab.0.bottom" timestamp="1581782687313">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state x="100" y="123" width="2360" height="1136" key="DiffContextDialog" timestamp="1584203521245">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="100" y="123" width="2360" height="1136" key="DiffContextDialog/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203521245" />
+    <state width="2010" height="382" key="GridCell.Tab.0.bottom" timestamp="1584194438520">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1580505133014" />
     <state width="1630" height="323" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1581782687313" />
-    <state width="1630" height="323" key="GridCell.Tab.0.center" timestamp="1581782687313">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state width="2010" height="382" key="GridCell.Tab.0.bottom/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438520" />
+    <state width="2010" height="382" key="GridCell.Tab.0.center" timestamp="1584194438519">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1580505133013" />
     <state width="1630" height="323" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1581782687313" />
-    <state width="1630" height="323" key="GridCell.Tab.0.left" timestamp="1581782687312">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state width="2010" height="382" key="GridCell.Tab.0.center/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438519" />
+    <state width="2010" height="382" key="GridCell.Tab.0.left" timestamp="1584194438519">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1580505133013" />
     <state width="1630" height="323" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1581782687312" />
-    <state width="1630" height="323" key="GridCell.Tab.0.right" timestamp="1581782687313">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state width="2010" height="382" key="GridCell.Tab.0.left/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438519" />
+    <state width="2010" height="382" key="GridCell.Tab.0.right" timestamp="1584194438520">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1580505133014" />
     <state width="1630" height="323" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1581782687313" />
-    <state width="1630" height="305" key="GridCell.Tab.1.bottom" timestamp="1580505133016">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="2010" height="382" key="GridCell.Tab.0.right/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438520" />
+    <state width="2010" height="382" key="GridCell.Tab.1.bottom" timestamp="1584194438521">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1580505133016" />
     <state width="1630" height="305" key="GridCell.Tab.1.bottom/0.23.1680.949@0.23.1680.949" timestamp="1579966570397" />
-    <state width="1630" height="305" key="GridCell.Tab.1.center" timestamp="1580505133015">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="2010" height="382" key="GridCell.Tab.1.bottom/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438521" />
+    <state width="2010" height="382" key="GridCell.Tab.1.center" timestamp="1584194438521">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1580505133015" />
     <state width="1630" height="305" key="GridCell.Tab.1.center/0.23.1680.949@0.23.1680.949" timestamp="1579966570396" />
-    <state width="1630" height="305" key="GridCell.Tab.1.left" timestamp="1580505133015">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="2010" height="382" key="GridCell.Tab.1.center/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438521" />
+    <state width="2010" height="382" key="GridCell.Tab.1.left" timestamp="1584194438520">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1580505133015" />
     <state width="1630" height="305" key="GridCell.Tab.1.left/0.23.1680.949@0.23.1680.949" timestamp="1579966570396" />
-    <state width="1630" height="305" key="GridCell.Tab.1.right" timestamp="1580505133015">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="2010" height="382" key="GridCell.Tab.1.left/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438520" />
+    <state width="2010" height="382" key="GridCell.Tab.1.right" timestamp="1584194438521">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1580505133015" />
     <state width="1630" height="305" key="GridCell.Tab.1.right/0.23.1680.949@0.23.1680.949" timestamp="1579966570396" />
-    <state width="1630" height="305" key="GridCell.Tab.2.bottom" timestamp="1580505133016">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="2010" height="382" key="GridCell.Tab.1.right/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438521" />
+    <state width="2010" height="382" key="GridCell.Tab.2.bottom" timestamp="1584194438522">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.2.bottom/0.23.1680.947@0.23.1680.947" timestamp="1580505133016" />
     <state width="1630" height="305" key="GridCell.Tab.2.bottom/0.23.1680.949@0.23.1680.949" timestamp="1579966570399" />
-    <state width="1630" height="305" key="GridCell.Tab.2.center" timestamp="1580505133016">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="2010" height="382" key="GridCell.Tab.2.bottom/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438522" />
+    <state width="2010" height="382" key="GridCell.Tab.2.center" timestamp="1584194438522">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.2.center/0.23.1680.947@0.23.1680.947" timestamp="1580505133016" />
     <state width="1630" height="305" key="GridCell.Tab.2.center/0.23.1680.949@0.23.1680.949" timestamp="1579966570398" />
-    <state width="1630" height="305" key="GridCell.Tab.2.left" timestamp="1580505133016">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="2010" height="382" key="GridCell.Tab.2.center/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438522" />
+    <state width="2010" height="382" key="GridCell.Tab.2.left" timestamp="1584194438521">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.2.left/0.23.1680.947@0.23.1680.947" timestamp="1580505133016" />
     <state width="1630" height="305" key="GridCell.Tab.2.left/0.23.1680.949@0.23.1680.949" timestamp="1579966570397" />
-    <state width="1630" height="305" key="GridCell.Tab.2.right" timestamp="1580505133016">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="2010" height="382" key="GridCell.Tab.2.left/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438521" />
+    <state width="2010" height="382" key="GridCell.Tab.2.right" timestamp="1584194438522">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.2.right/0.23.1680.947@0.23.1680.947" timestamp="1580505133016" />
     <state width="1630" height="305" key="GridCell.Tab.2.right/0.23.1680.949@0.23.1680.949" timestamp="1579966570399" />
-    <state x="332" y="68" key="SettingsEditor" timestamp="1580250066225">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state width="2010" height="382" key="GridCell.Tab.2.right/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584194438522" />
+    <state x="506" y="86" key="SettingsEditor" timestamp="1584189870251">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="332" y="68" key="SettingsEditor/0.23.1680.949@0.23.1680.949" timestamp="1580250066225" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/message/MessageUtils.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/message/MessageUtils.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="506" y="86" key="SettingsEditor/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584189870251" />
+    <state x="100" y="123" width="2360" height="1137" key="VCS.FileHistoryDialog" timestamp="1584190837437">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="100" y="123" width="2360" height="1137" key="VCS.FileHistoryDialog/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584190837437" />
   </component>
 </project>
