@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c449b331-43c2-490c-93d8-1e8a4a0545c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/startup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/jzmq/JZMQSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/jzmq/JZMQSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,6 +269,7 @@
       <workItem from="1583241157309" duration="414000" />
       <workItem from="1583415620798" duration="58000" />
       <workItem from="1583758797660" duration="29000" />
+      <workItem from="1584106626361" duration="115000" />
     </task>
     <servers />
   </component>

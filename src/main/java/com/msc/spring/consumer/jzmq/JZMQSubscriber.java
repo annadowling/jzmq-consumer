@@ -49,7 +49,7 @@ public class JZMQSubscriber {
                         receiveMessageMultiThread(subscriber);
                     }else{
                         byte[] messageBody = subscriber.recv();
-                        messageUtils.saveMessage(messageBody);
+                        messageUtils.saveMessage(messageBody, false);
                         System.out.println(" [x] Received Message: '" + messageBody + "'");
                     }
                     i++;
@@ -63,7 +63,7 @@ public class JZMQSubscriber {
     @Async
     void receiveMessageMultiThread(ZMQ.Socket subscriber){
         byte[] messageBody = subscriber.recv();
-        messageUtils.saveMessage(messageBody);
+        messageUtils.saveMessage(messageBody, true);
         System.out.println(" [x] Received Message: '" + messageBody + "'");
     }
 }
