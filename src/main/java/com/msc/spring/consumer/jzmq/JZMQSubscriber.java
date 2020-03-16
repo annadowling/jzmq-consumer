@@ -1,6 +1,8 @@
 package com.msc.spring.consumer.jzmq;
 
 import com.msc.spring.consumer.message.MessageUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -17,6 +19,8 @@ import org.zeromq.ZMQ;
 @Component
 @ConditionalOnProperty(prefix = "jzmq", name = "enabled", havingValue = "true")
 public class JZMQSubscriber {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(JZMQSubscriber.class);
 
     @Value("${zeromq.address}")
     private String bindAddress;
@@ -39,7 +43,7 @@ public class JZMQSubscriber {
                 subscriber.connect(bindAddress);
                 subscriber.subscribe("B".getBytes());
 
-                System.out.println("Starting Subscriber..");
+                LOGGER.info("Starting Subscriber..");
                 int i = 0;
                 while (true) {
                     // Read envelope with address
@@ -47,7 +51,7 @@ public class JZMQSubscriber {
                     // Read message contents
                     byte[] messageBody = subscriber.recv();
                     messageUtils.saveMessage(messageBody, false);
-                    System.out.println(" [x] Received Message: '" + messageBody + "'" + "for address: " + messageAddress);
+                    LOGGER.info("Received JZMQ Message: '" + messageBody + "'" + "for address: " + messageAddress);
                     i++;
                 }
             }
@@ -65,7 +69,7 @@ public class JZMQSubscriber {
                 subscriber.connect(bindAddress);
                 subscriber.subscribe("B".getBytes());
 
-                System.out.println("Starting Subscriber..");
+                LOGGER.info("Starting Subscriber..");
                 int i = 0;
                 while (true) {
                     // Read envelope with address
@@ -73,7 +77,7 @@ public class JZMQSubscriber {
                     // Read message contents
                     byte[] messageBody = subscriber.recv();
                     messageUtils.saveMessage(messageBody, true);
-                    System.out.println(" [x] Received Message: '" + messageBody + "'" + "for address: " + messageAddress);
+                    LOGGER.info("Received JZMQ Message: '" + messageBody + "'" + "for address: " + messageAddress);
                     i++;
                 }
             }

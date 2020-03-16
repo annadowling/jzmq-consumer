@@ -1,5 +1,7 @@
 package com.msc.spring.consumer.message;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -12,6 +14,8 @@ import java.util.Map;
 
 @Component
 public class MessageUtils {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(MessageUtils.class);
 
     @Autowired
     MessageRepository messageRepository;
@@ -30,9 +34,9 @@ public class MessageUtils {
             bin = new ObjectInputStream(new ByteArrayInputStream(bytes));
             obj = bin.readObject();
         } catch (IOException e) {
-            System.out.println("Unable to convert bytes to ArrayList<String> " + e);
+            LOGGER.info("Unable to convert bytes: " + e);
         } catch (ClassNotFoundException e) {
-            System.out.println("Unable to convert bytes to ArrayList<String> " + e);
+            LOGGER.info("Unable to convert bytes: " + e);
         }
 
         return obj;

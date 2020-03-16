@@ -6,9 +6,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/jzmq/JZMQSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/jzmq/JZMQSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/message/MessageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/message/MessageUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +41,29 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jzmq-consumer" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jzmq-consumer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jzmq-consumer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jzmq-consumer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jzmq-consumer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -83,7 +114,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication (1)">
+  <component name="RunManager" selected="Gradle.jzmq-consumer [jar]">
     <configuration name="jzmq-consumer [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -255,11 +286,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.jzmq-consumer [clean]" />
+        <item itemvalue="Gradle.jzmq-consumer [jar]" />
         <item itemvalue="Spring Boot.ConsumerApplication (1)" />
         <item itemvalue="Gradle.jzmq-consumer [build]" />
         <item itemvalue="Gradle.jzmq-consumer [buildDependents]" />
-        <item itemvalue="Gradle.jzmq-consumer [clean]" />
-        <item itemvalue="Spring Boot.ConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +308,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -312,7 +343,10 @@
       <workItem from="1584106626361" duration="115000" />
       <workItem from="1584186229874" duration="2209000" />
       <workItem from="1584189056051" duration="2773000" />
-      <workItem from="1584203296979" duration="535000" />
+      <workItem from="1584203296979" duration="603000" />
+      <workItem from="1584203944232" duration="414000" />
+      <workItem from="1584357948809" duration="1104000" />
+      <workItem from="1584360244339" duration="338000" />
     </task>
     <servers />
   </component>
@@ -352,54 +386,54 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="100" y="123" width="2360" height="1136" key="DiffContextDialog/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203521245" />
-    <state width="2010" height="382" key="GridCell.Tab.0.bottom" timestamp="1584203794625">
+    <state width="2518" height="495" key="GridCell.Tab.0.bottom" timestamp="1584204358367">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1580505133014" />
     <state width="1630" height="323" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1581782687313" />
-    <state width="2010" height="382" key="GridCell.Tab.0.bottom/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203794625" />
-    <state width="2010" height="382" key="GridCell.Tab.0.center" timestamp="1584203794624">
+    <state width="2518" height="495" key="GridCell.Tab.0.bottom/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584204358367" />
+    <state width="2518" height="495" key="GridCell.Tab.0.center" timestamp="1584204358367">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1580505133013" />
     <state width="1630" height="323" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1581782687313" />
-    <state width="2010" height="382" key="GridCell.Tab.0.center/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203794624" />
-    <state width="2010" height="382" key="GridCell.Tab.0.left" timestamp="1584203794624">
+    <state width="2518" height="495" key="GridCell.Tab.0.center/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584204358367" />
+    <state width="2518" height="495" key="GridCell.Tab.0.left" timestamp="1584204358366">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1580505133013" />
     <state width="1630" height="323" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1581782687312" />
-    <state width="2010" height="382" key="GridCell.Tab.0.left/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203794624" />
-    <state width="2010" height="382" key="GridCell.Tab.0.right" timestamp="1584203794625">
+    <state width="2518" height="495" key="GridCell.Tab.0.left/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584204358366" />
+    <state width="2518" height="495" key="GridCell.Tab.0.right" timestamp="1584204358367">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1580505133014" />
     <state width="1630" height="323" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1581782687313" />
-    <state width="2010" height="382" key="GridCell.Tab.0.right/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203794625" />
-    <state width="2010" height="382" key="GridCell.Tab.1.bottom" timestamp="1584203794628">
+    <state width="2518" height="495" key="GridCell.Tab.0.right/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584204358367" />
+    <state width="2010" height="382" key="GridCell.Tab.1.bottom" timestamp="1584203901297">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1580505133016" />
     <state width="1630" height="305" key="GridCell.Tab.1.bottom/0.23.1680.949@0.23.1680.949" timestamp="1579966570397" />
-    <state width="2010" height="382" key="GridCell.Tab.1.bottom/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203794628" />
-    <state width="2010" height="382" key="GridCell.Tab.1.center" timestamp="1584203794627">
+    <state width="2010" height="382" key="GridCell.Tab.1.bottom/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203901297" />
+    <state width="2010" height="382" key="GridCell.Tab.1.center" timestamp="1584203901296">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1580505133015" />
     <state width="1630" height="305" key="GridCell.Tab.1.center/0.23.1680.949@0.23.1680.949" timestamp="1579966570396" />
-    <state width="2010" height="382" key="GridCell.Tab.1.center/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203794627" />
-    <state width="2010" height="382" key="GridCell.Tab.1.left" timestamp="1584203794626">
+    <state width="2010" height="382" key="GridCell.Tab.1.center/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203901296" />
+    <state width="2010" height="382" key="GridCell.Tab.1.left" timestamp="1584203901296">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1580505133015" />
     <state width="1630" height="305" key="GridCell.Tab.1.left/0.23.1680.949@0.23.1680.949" timestamp="1579966570396" />
-    <state width="2010" height="382" key="GridCell.Tab.1.left/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203794626" />
-    <state width="2010" height="382" key="GridCell.Tab.1.right" timestamp="1584203794627">
+    <state width="2010" height="382" key="GridCell.Tab.1.left/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203901296" />
+    <state width="2010" height="382" key="GridCell.Tab.1.right" timestamp="1584203901296">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1630" height="305" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1580505133015" />
     <state width="1630" height="305" key="GridCell.Tab.1.right/0.23.1680.949@0.23.1680.949" timestamp="1579966570396" />
-    <state width="2010" height="382" key="GridCell.Tab.1.right/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203794627" />
+    <state width="2010" height="382" key="GridCell.Tab.1.right/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203901296" />
     <state width="2010" height="382" key="GridCell.Tab.2.bottom" timestamp="1584194438522">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
