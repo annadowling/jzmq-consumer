@@ -51,7 +51,7 @@ public class JZMQSubscriber {
                     // Read message contents
                     byte[] messageBody = subscriber.recv();
                     messageUtils.saveMessage(messageBody, false);
-                    LOGGER.info("Received JZMQ Message: '" + messageBody + "'" + "for address: " + messageAddress);
+                    LOGGER.info("Received JZMQ Message for address: " + messageAddress);
                     i++;
                 }
             }

@@ -13,11 +13,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/msc/spring/consumer/jzmq/JZMQSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/msc/spring/consumer/jzmq/JZMQSubscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/jzmq-consumer-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/jzmq-consumer-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/jzmq/JZMQSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/jzmq/JZMQSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/message/MessageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msc/spring/consumer/message/MessageUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,6 +347,7 @@
       <workItem from="1584357948809" duration="1104000" />
       <workItem from="1584360244339" duration="338000" />
       <workItem from="1584360637493" duration="53000" />
+      <workItem from="1584360964609" duration="1054000" />
     </task>
     <servers />
   </component>
@@ -387,27 +387,31 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="100" y="123" width="2360" height="1136" key="DiffContextDialog/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584203521245" />
-    <state width="2518" height="495" key="GridCell.Tab.0.bottom" timestamp="1584204358367">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1878" height="343" key="GridCell.Tab.0.bottom" timestamp="1584365371925">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
+    <state width="1878" height="343" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.1920.977@0.23.1920.977" timestamp="1584365371925" />
     <state width="1630" height="305" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1580505133014" />
     <state width="1630" height="323" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1581782687313" />
     <state width="2518" height="495" key="GridCell.Tab.0.bottom/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584204358367" />
-    <state width="2518" height="495" key="GridCell.Tab.0.center" timestamp="1584204358367">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1878" height="343" key="GridCell.Tab.0.center" timestamp="1584365371924">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
+    <state width="1878" height="343" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.1920.977@0.23.1920.977" timestamp="1584365371924" />
     <state width="1630" height="305" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1580505133013" />
     <state width="1630" height="323" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1581782687313" />
     <state width="2518" height="495" key="GridCell.Tab.0.center/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584204358367" />
-    <state width="2518" height="495" key="GridCell.Tab.0.left" timestamp="1584204358366">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1878" height="343" key="GridCell.Tab.0.left" timestamp="1584365371923">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
+    <state width="1878" height="343" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.1920.977@0.23.1920.977" timestamp="1584365371923" />
     <state width="1630" height="305" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1580505133013" />
     <state width="1630" height="323" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1581782687312" />
     <state width="2518" height="495" key="GridCell.Tab.0.left/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584204358366" />
-    <state width="2518" height="495" key="GridCell.Tab.0.right" timestamp="1584204358367">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1878" height="343" key="GridCell.Tab.0.right" timestamp="1584365371925">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
+    <state width="1878" height="343" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.1920.977@0.23.1920.977" timestamp="1584365371925" />
     <state width="1630" height="305" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1580505133014" />
     <state width="1630" height="323" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1581782687313" />
     <state width="2518" height="495" key="GridCell.Tab.0.right/0.23.2560.1337/-1680.23.1680.1027@0.23.2560.1337" timestamp="1584204358367" />
